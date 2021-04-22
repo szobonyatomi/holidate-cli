@@ -1,0 +1,28 @@
+{
+  "name": "tomi_holidate",
+  "version": "1.0.0",
+  "description": "World's holiday days finder",
+  "main": "index.js",
+  "bin": {
+    "holidates": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szobonyatomi/holidate-cli.git"
+  },
+  "author": "Tomi Szobonya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szobonyatomi/holidate-cli/issues"
+  },
+  "homepage": "https://github.com/szobonyatomi/holidate-cli#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "country-list": "^2.2.0",
+    "figlet": "^1.5.0"
+  }
+}
